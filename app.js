@@ -26,9 +26,9 @@ app.get('/team', (req,res) => {
     res.send(`hello team page`)
 })
 
-app.get('/signup', (req, res) => {
-    res.send(`hello registration world, this is signup page`);
-})
+// app.get('/signup', (req, res) => {
+//     res.send(`hello registration world, this is signup page`);
+// })
 
 app.get('/signin', (req, res) => {
     res.send(`hello login world, this is sign page`);
