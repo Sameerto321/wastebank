@@ -9,7 +9,7 @@ require("../../db/conn")
 const Registration = require("../modal/registrationSchema");
 
 
-router.get('/', (req, res) => {
+router.get('/api', (req, res) => {
     res.send(`hello world from the server router.js`);
 })
 
