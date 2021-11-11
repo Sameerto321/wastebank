@@ -16,7 +16,7 @@ app.use(cors());
 
 
 //we link the router file to make our route easy
-// app.use(require('./src/router/auth'))
+app.use(require('./src/router/auth'))
 
 
 const PORT = process.env.PORT || 5000
